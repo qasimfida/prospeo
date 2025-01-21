@@ -12,7 +12,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body className="bg-gray-50 text-gray-900">
-        {/* <Navbar />  */}
+        <Navbar /> 
         <main className="min-h-screen flex flex-col">{children}</main> 
         <Footer /> 
       </body>

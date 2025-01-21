@@ -24,7 +24,7 @@ export default function Home() {
       <Founder />
       <BackgroundWrapper>
       <MeetCompanies />
-      {/* <LowerSection /> */}
+      <LowerSection />
     </BackgroundWrapper>
     <div className="text-center mt-4">
            <Link href="/dashboard" className="text-blue-500 underline">
