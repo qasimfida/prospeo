@@ -5,7 +5,7 @@ import { navigationLinks, logoPath } from "@/lib/data";
 
 const Header = () => {
   return (
-    <header className="fixed font-coresansd top-[47px] left-1/2 transform -translate-x-1/2 w-[1121px] bg-white rounded-[15px] shadow-md z-50">
+    <header className="fixed font-sub top-[47px] left-1/2 transform -translate-x-1/2 w-[1121px] bg-white rounded-[15px] shadow-md z-50">
       <div className="h-[65px] p-[10px_20px] flex gap-[38px] justify-around items-center">
         <Link href="/" passHref>
           <div className="">
